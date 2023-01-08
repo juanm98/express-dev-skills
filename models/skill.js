@@ -11,5 +11,5 @@ const skillSchema = new Schema({
 const Skill = mongoose.model('Skill', skillSchema)
 
 export {
-  skill
+  Skill
 }

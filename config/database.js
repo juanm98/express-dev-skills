@@ -1,6 +1,6 @@
-// import mongoose from 'mongoose'
+import mongoose from 'mongoose'
 
-// mongoose.set('strictQuery', false)
+mongoose.set('strictQuery', false)
 
-// // This connects the database with mongoose
-// mongoose.connect(process.env.DATABASE_URL)
+// This connects the database with mongoose
+mongoose.connect(process.env.DATABASE_URL)

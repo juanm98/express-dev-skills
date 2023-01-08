@@ -5,6 +5,9 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import logger from 'morgan'
 
+// Connect to Database
+import './config/database.js'
+
 // import routers
 import { router as indexRouter } from './routes/index.js'
 import { router as skillsRouter } from './routes/skills.js'

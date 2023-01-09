@@ -10,6 +10,8 @@ router.get('/', skillsCtrl.index)
 // localhost:3000/skills/new
 router.get('/new', skillsCtrl.new)
 
+router.post('/', skillsCtrl.create)
+
 export {
   router
 }
